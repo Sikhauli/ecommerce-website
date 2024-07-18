@@ -15,9 +15,9 @@ import { hideLoading, showLoading } from "../../redux/slices/loadingSlice";
 import { useSnackbar } from "notistack";
 
 const slides = [
-    { title: 'Welcome', description: 'Welcome to our website', imageUrl: 'src/assets/sale-shopping-cart.jpg' },
-    { title: 'Discover', description: 'Discover new features', imageUrl: 'src/assets/woman-with-shopping-bag.jpg' },
-    { title: 'Enjoy', description: 'Enjoy your stay', imageUrl: 'src/assets/hamed-taha-YmBgW57IPtk-unsplash.jpg' },
+    { title: 'Welcome', description: 'Welcome to our website', imageUrl: 'https://cdn.pixabay.com/photo/2021/11/22/20/20/online-6817350_640.jpg' },
+    { title: 'Discover', description: 'Discover new features', imageUrl: 'https://blog-frontend.envato.com/cdn-cgi/image/width=2560,quality=75,format=auto/uploads/sites/2/2022/04/E-commerce-App-JPG-File-scaled.jpg' },
+    { title: 'Enjoy', description: 'Enjoy your stay', imageUrl: 'https://t4.ftcdn.net/jpg/07/64/55/75/360_F_764557526_HlwV6rYpIxrfhrmlpTzl74INFoMmJs9Z.jpg' },
 ];
 
 const categories = [
