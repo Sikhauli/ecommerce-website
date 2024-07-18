@@ -14,9 +14,9 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-const clientWebsite = process.env.CLIENT_WEBSITE || "http://localhost:5173";
-const adminWebsite = process.env.ADMIN_WEBSITE || "http://localhost:5173";
-const testWebsite = "http://localhost:4173";
+const clientWebsite = process.env.CLIENT_WEBSITE || "http://localhost:5173" || "https://ecommerce-website-vv87.onrender.com";
+const adminWebsite = process.env.ADMIN_WEBSITE || "http://localhost:5173" || "https://ecommerce-website-vv87.onrender.com" ;
+const testWebsite = "http://localhost:4173" || "https://ecommerce-website-vv87.onrender.com";
 
 //connect to DB
 //listen after db connection has been est

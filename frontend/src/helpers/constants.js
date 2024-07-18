@@ -1,5 +1,5 @@
 import axios from "axios";
-export const API_URL = import.meta.env.VITE_API_URL || "https://ecommerce-api-u9a0.onrender.com/api/";
+export const API_URL = import.meta.env.VITE_API_URL || "https://ecommerce-website-api-18s2.onrender.com/api/";
 
 export const API = axios.create({
     baseURL: API_URL,
