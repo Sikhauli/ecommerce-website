@@ -72,6 +72,7 @@ const AccountDropdown= ({ isOpen, toggleMenu }) => {
               <FaUser className="mt-1 mr-2"/> <p>User</p>
             </a>
           </MenuItem>
+            {currentUser && (
           <MenuItem>
             <div
               className="block flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
@@ -80,6 +81,7 @@ const AccountDropdown= ({ isOpen, toggleMenu }) => {
               <IoMdCart className="mt-1 mr-2"/> <p>Cart</p>
             </div>
           </MenuItem>
+           )}
           <MenuItem>
             <a
               href="#"

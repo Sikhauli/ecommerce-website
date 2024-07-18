@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import SlideComponent from './Slide';
 
-
 const Slideshow = ({ slides }) => {
+  
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const nextSlide = () => {
