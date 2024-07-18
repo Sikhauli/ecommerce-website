@@ -46,6 +46,10 @@ const AccountDropdown= ({ isOpen, toggleMenu }) => {
         navigate('/cart', { state: { currentUser } });
     };
 
+    const handleDest = () => {
+       navigate(linkDestination);
+     };
+
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
@@ -65,12 +69,12 @@ const AccountDropdown= ({ isOpen, toggleMenu }) => {
       >
         <div className="py-1">
           <MenuItem>
-            <a
-              href={linkDestination}
+            <div
+              onClick={handleDest}
               className="block flex px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
             >
               <FaUser className="mt-1 mr-2"/> <p>User</p>
-            </a>
+            </div>
           </MenuItem>
             {currentUser && (
           <MenuItem>
