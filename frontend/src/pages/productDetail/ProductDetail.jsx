@@ -43,10 +43,6 @@ const ProductDetail = () => {
               interactive={false}
               rating={3.5}
             />
-
-            <p className="ml-3 text-sm text-gray-400">
-              ({productDetailItem.reviews})
-            </p>
           </div>
         </div>
         <p className="mt-5 font-bold">
