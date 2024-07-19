@@ -3,6 +3,9 @@ Welcome to my eCommerce-website! This project showcases my skills and experience
 
 ### Weblink: [Live Website](https://ecommerce-website-vv87.onrender.com/)
 
+## Image:
+<img width="450px;" src="https://github.com/Sikhauli/ecommerce-website/blob/main/frontend/src/assets/Screenshot.png?raw=true"/>
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
