@@ -1,4 +1,4 @@
-# My Portfolio
+# Trend Bazaar
 Welcome to my eCommerce-website! This project showcases my skills and experiences as a web developer.
 
 ### Weblink: [Live Website](https://ecommerce-website-vv87.onrender.com/)
